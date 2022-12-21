@@ -23,7 +23,7 @@ jobs:
 
 
       - name: "building docker image"
-        run: docker build -t ${{ secrets.USERNAM }}/123mohammed/os_project .
+        run: docker build -t ${{ secrets.USERNAM }}/os_project .
 
       - name: "pushing to docker hup"
-        run: docker push ${{ secrets.USERNAM }}/123mohammed/os_project
+        run: docker push ${{ secrets.USERNAM }}/os_project
